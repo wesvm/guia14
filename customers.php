@@ -42,7 +42,7 @@ if ($method == 'GET') {
         echo json_encode([
             'success' => true,
             'message' => 'Cliente agregado exitosamente.',
-            'customer' => [
+            'data' => [
                 'id' => $customer_id,
                 'name' => $name,
                 'last_name' => $last_name,
